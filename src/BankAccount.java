@@ -5,6 +5,10 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    public void deposit(amount){
+        balance += amount:
+    }
+
     public double getBalance() {
         return balance;
     }
