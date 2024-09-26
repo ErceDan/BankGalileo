@@ -13,6 +13,11 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    @Override
+    public String toString() {
+        return "BankAccount [balance=" + balance + ", toString()=" + super.toString() + "]";
+    }
+
 
 
 }
